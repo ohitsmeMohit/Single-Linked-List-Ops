@@ -1,0 +1,22 @@
+import single
+
+if __name__ == '__main__':
+    newLL = single.LL()
+    newLL.insertAtBeginning(10)
+    newLL.insertAtEnd(13)
+    newLL.insertAtEnd(12)
+    newLL.insertAtBeginning(3)
+    newLL.deleteFirst()
+    print("Value at index 2 is:", newLL.get(2).data)
+    newLL.insertAtIndex(31, 4)
+    newLL.insertAtEnd(43)
+    newLL.deleteLast()
+    newLL.deleteLast()
+    newLL.insertAtBeginning(89)
+    newLL.insertAtBeginning(34)
+    newLL.deleteAtIndex(3)
+    newLL.insertAtBeginning(45)
+    newLL.deleteAtIndex(1)
+    newLL.insertAtBeginning(67)
+    print("Final LL: ")
+    newLL.display()
